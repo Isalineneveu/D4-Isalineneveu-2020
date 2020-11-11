@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway:wght@300&display=swap');
+
+h1{
+  font-family: 'Abril Fatface', cursive;
+}
+
+h2 {font-family: 'Abril Fatface', cursive;
+color:rgb( 62, 54, 115);
+text-align: center;
+font-size: 40px;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;}
+a {font-family: 'Abril Fatface', cursive;
+}
