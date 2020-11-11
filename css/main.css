@@ -1,0 +1,223 @@
+body{
+  background:#C9C2F5
+  ;
+
+}
+
+.image img{
+  width: 100%;
+}
+
+section{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header{
+    background:rgb(214, 201, 242)
+  color: white;
+  min-height: 15vh;
+}
+
+.navigation{
+  display: flex;
+}
+
+
+
+
+
+
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color:pink;
+    position: sticky;
+    top: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;/
+    padding: 10px 0px;
+
+}
+
+nav a:hover{
+    color: rgb( 62, 54, 115);
+    border-bottom: 2px solid rgb( 62, 54, 115);
+}
+
+
+
+.conteneur{
+  margin: 0px 20px;
+  height: 1500px;
+}
+
+
+
+#etape3 p{text-align: center;}
+
+
+
+h1{
+  font-size: 70px;
+  text-align: center;
+  color: rgb( 62, 54, 115);
+  margin-bottom: 40px;
+  margin-top:10px;
+  text-decoration: underline;
+}
+
+
+
+
+footer{text-align: center;
+display: flex;}
+
+footer ul{
+    list-style-type: none;
+}
+
+
+.content-block {display: flex;
+justify-content:flex-start;
+
+}
+
+.content-inner{
+  flex-basis: 600px;
+  margin-left: 50px;
+}
+
+
+.content-inner h2 {
+  margin-top: 60px;
+}
+
+.petape3 p {
+margin-top: 10
+px;
+}
+
+.petape2 p {
+margin-top: 300px;
+}
+
+.video {margin-left:400px;
+margin-bottom: 40px;}
+
+.image3{
+  margin-left: 200px;
+}
+
+.image2 {
+  float: right;}
+
+
+
+.video {
+  animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:none;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 29s%;
+    width: 100%;
+  }
+}
+
+
+.image {
+  animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:none;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 29s%;
+    width: 100%;
+  }
+}
+
+.image1 {
+  animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:none;}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width:70%;
+  }
+
+  to {
+    margin-left: 0,3%;
+    width: 70%;
+  }
+}
+
+
+.h2etape5 {
+  animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:none;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width:70%;
+  }
+
+  to {
+    margin-left: 15%;
+    width: 70%;
+  }
+}
+
+.h2etape4 {
+  animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:none;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width:70%;
+  }
+
+  to {
+    margin-left: 15%;
+    width: 70%;
+  }
+}
